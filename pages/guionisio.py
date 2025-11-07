@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import io
 from pages.repo import guionisioRepo as logic
 
 st.title("Guionisio - Generador de campañas para Redes Sociales ✍️")
