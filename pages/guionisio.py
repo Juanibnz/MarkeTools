@@ -52,7 +52,4 @@ if submitted:
                 )
         st.success("¡Campaña generada con éxito! 🎉")
         st.markdown("### Resultado:")
-
-        csv_buffer = io.StringIO(result)
-        df = pd.read_csv(csv_buffer)
-        st.dataframe(df)
+        st.markdown(result)
